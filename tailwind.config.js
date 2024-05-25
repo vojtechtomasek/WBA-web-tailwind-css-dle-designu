@@ -8,14 +8,19 @@ module.exports = {
         'primary-1': '#BE6361',
         'text-white': '#FFFFFF',
         'bg-hero': '#FF8482',
+        'bg-mel-solum': '#FFF2DD',
       },
       fontFamily: {
         'alfa-slab-one': ["Alfa Slab One", "serif"],
+        'dm-sans': ["DM Sans", "serif",]
       },
       textShadow: {
         'default': '2px 2px 4px rgba(0, 0, 0, 0.5)',
         'lg': '4px 4px 6px rgba(0, 0, 0, 0.5)',
       },
+      height: {
+        '108': '27rem',
+      }
     },
   },
   plugins: [
