@@ -20,6 +20,11 @@ module.exports = {
       },
       height: {
         '108': '27rem',
+      },
+      screens:{
+        'xs': '550px',
+        '3xl': '1800px',
+        '4xl': '1900px'
       }
     },
   },
@@ -29,19 +34,17 @@ module.exports = {
         '.text-shadow': {
           textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
         },
-        '.text-shadow-lg': {
-          textShadow: '4px 4px 6px rgba(0, 0, 0, 0.5)',
-        },
+
         '.text-shadow-none': {
           textShadow: 'none',
         },
-        '.text-outline': {
+        '.text-shadow-outline-lg': {
           textShadow: `
+            4px 4px 6px rgba(0, 0, 0, 0.5),
             -1.5px -1.5px 0 #000,
             1.5px -1.5px 0 #000,
             -1.5px 1.5px 0 #000,
-            1.5px 1.5px 0 #000
-          `,
+            1.5px 1.5px 0 #000`,
         },
       }
 
