@@ -20,12 +20,16 @@ module.exports = {
       },
       height: {
         '108': '27rem',
+        '18': '18px',
+      },
+      width: {
+        '24': '24px',
       },
       screens:{
         'xs': '550px',
         '3xl': '1800px',
         '4xl': '1900px'
-      }
+      },
     },
   },
   plugins: [
